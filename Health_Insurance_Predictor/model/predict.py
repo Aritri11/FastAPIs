@@ -28,5 +28,6 @@ def predict_output(user_input: dict):
     return {
         'predicted_category': predicted_class,
         'confidence': round(confidence,4),
-        'class_probs': class_probs
+        'class_probabilities': class_probs
     }
+
